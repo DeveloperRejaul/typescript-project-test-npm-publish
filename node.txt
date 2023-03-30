@@ -1,0 +1,20 @@
+==========================================================
+			npm publish
+=========================================================
+1/ npm login
+2/ npm addUser
+
+// package er samne user name add kurte cayle nicer stap golo flow kurte hube
+3/ npm publish --access=public
+
+// es6 er sintex enable kurar junno package.json file 
+  "type": "module", ey ta likte hube
+
+
+echo "# typescript-project-test-npm-publish" >> README.md
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/DeveloperRejaul/typescript-project-test-npm-publish.git
+git push -u origin main
