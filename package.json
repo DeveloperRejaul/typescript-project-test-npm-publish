@@ -2,14 +2,14 @@
   "name": "typescript-project-test-npm-publish",
   "version": "1.0.0",
   "description": "learn npm publish with typescript",
-  "main": ".lib/index.js",
-  "type": "module",
+  "main": "lib/index.js",
   "types": "lib/index.d.ts",
+  "type": "module",
   "scripts": {
-    "build":"tsc",
-     "prepare": "npm run build"
+    "build": "tsc",
+    "prepare": "npm run build"
   },
-   "directories": {
+  "directories": {
     "lib": "lib"
   },
   "repository": {
@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/DeveloperRejaul/typescript-project-test-npm-publish/issues"
   },
-  "homepage": "https://github.com/DeveloperRejaul/typescript-project-test-npm-publish#readme"
+  "homepage": "https://github.com/DeveloperRejaul/typescript-project-test-npm-publish#readme",
+  "files": [
+    "lib/**/*"
+  ]
 }
