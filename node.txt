@@ -11,3 +11,6 @@
   "type": "module", ey ta likte hube
 
 // sodo matto lib file ta npm e publish kurar junno package.json file e code ta likte hube:  "files": ["lib/**/*"]
+
+// crate npm package with typescript, support es6 and commonjs 
+read this article : https://www.sensedeep.com/blog/posts/2021/how-to-create-single-source-npm-module.html
